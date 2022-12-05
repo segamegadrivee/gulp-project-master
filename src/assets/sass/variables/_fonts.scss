@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rufina:wght@400;700&display=swap');
+
+$main-font: 'Lato', sans-serif;
+$sub-font: 'Rufina', serif;
+
+.nav-subitem {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: $color-000000;
+}
+
+
+.h5 {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color:$color-000000;
+}

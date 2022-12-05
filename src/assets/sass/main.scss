@@ -1,0 +1,32 @@
+
+// Variables
+@import './variables/color';
+@import './variables/fonts';
+@import './variables/media';
+// Variables End
+
+
+// Global Styles 
+@import './global/resets.scss';
+@import './global/global.scss';
+// Global Styles End
+
+
+
+// Pages Style 
+@import './pages/home.scss';
+// Pages Style End
+
+
+
+// Common Style
+@import './common/header.scss';
+@import './common/footer.scss';
+// Common Style End
+
+
+// Components Style
+
+@import './components/button.scss';
+
+//Components Style End

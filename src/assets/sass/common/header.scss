@@ -1,0 +1,71 @@
+
+
+.header { 
+    
+    background-image: url('../../img/header.jpg');
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 48px;
+        
+       
+    }
+
+
+    &__container-right{
+        float: right;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 45px;
+      
+        
+    }
+
+    &__container-left{
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 33px;
+        
+        
+    }
+
+    &__tel {
+        text-decoration: none;
+        color:$color-FFFFFF;
+        &:hover {
+            color:$color-B0B0B0;
+            transition: 0.2s;
+        }
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
