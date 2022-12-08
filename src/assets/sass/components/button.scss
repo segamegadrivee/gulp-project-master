@@ -5,5 +5,30 @@
     height: 88px;
     width: 285px;
     color: #ffffff;
-    
+
+    &:hover {
+        border: 2px solid $color-B0B0B0;
+        color: $color-B0B0B0;
+        transition: 0.2s;
+    }
+
 }
+
+
+.button-green {
+    border: none;
+    cursor: pointer;
+    padding: 20px 46px;
+    gap: 10px;
+    width: 241px;
+    height: 88px;
+    background:#5E6600;
+    
+    &:hover {
+        transition: 0.5s;
+        background-color: #ffffff;
+        color: black;
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    }
+}
+

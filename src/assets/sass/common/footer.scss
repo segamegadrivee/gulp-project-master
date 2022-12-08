@@ -1,0 +1,56 @@
+.footer {
+
+    &__container {
+        background-color: $color-233000;
+        display: flex;
+        height: 671px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 55px;
+    }
+
+
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__form-input {
+        background: transparent;
+        padding-left: 20px;
+        width: 523px;
+        height: 96px;
+        gap: 12px;
+        border: 2px solid #FFFFFF;
+    }
+
+
+
+    &__container-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $color-233000;
+        border-top: 2px dashed #FFFFFF;
+        height: 171px;
+    }
+
+    &__socialrow {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 28px;
+    }
+
+
+}
